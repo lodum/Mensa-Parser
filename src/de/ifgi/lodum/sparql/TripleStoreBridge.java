@@ -101,7 +101,7 @@ public class TripleStoreBridge {
 		
 		
 		//Print the sparql request (for debugging purposes)
-		System.out.println(msg);
+//		System.out.println(msg);
 		
 		URL queryURL;
 		URLConnection urlConn;
@@ -129,7 +129,7 @@ public class TripleStoreBridge {
 
 	    		String aLine = "";
 	    		while ((aLine = in.readLine()) != null) {
-	    			System.out.println(aLine); 
+	    			// System.out.println(aLine); 
 
 	    		}
 	    		
