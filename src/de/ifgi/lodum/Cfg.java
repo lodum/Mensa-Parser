@@ -16,6 +16,8 @@ public class Cfg {
 	public final static String ENDPOINT;
 	public final static String FROM;
 	public final static String TO;
+	public final static String USERNAME;
+	public final static String PASSWORD;
 	
 	static{
 		
@@ -40,6 +42,8 @@ public class Cfg {
 		 ENDPOINT = properties.getProperty("endpoint");
 		 FROM = properties.getProperty("from");
 		 TO = properties.getProperty("to");
+		 USERNAME = properties.getProperty("username");
+		 PASSWORD = properties.getProperty("password");
 	}
 	
 	private Cfg() {}

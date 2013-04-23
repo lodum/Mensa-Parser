@@ -12,7 +12,8 @@ public enum CafeteriaTyp {
 	DaVinci("http://www.studentenwerk-muenster.de/de/essen-a-trinken/mensen/da-vinci", "<http://data.uni-muenster.de/context/uniaz/d46d2d2c4b3ea6341254a9649e38678f>","11:30","14:30"),
 	Aasee("http://www.studentenwerk-muenster.de/de/essen-a-trinken/mensen/mensa-am-aasee", "<http://data.uni-muenster.de/context/uniaz/70ad738c960cc5e88e5e8d8ac1b5975e>","11:45","14:30"),
 	Ring("http://www.studentenwerk-muenster.de/de/essen-a-trinken/mensen/mensa-am-ring", "<http://data.uni-muenster.de/context/uniaz/8ac770e149aa52077f85189c390e9571>","11:30","14:00"),
-	Bispinghof("http://www.studentenwerk-muenster.de/de/essen-a-trinken/mensen/bispinghof", "<http://data.uni-muenster.de/context/uniaz/MensaBispinghof>","11:30","14:30");
+	Bispinghof("http://www.studentenwerk-muenster.de/de/essen-a-trinken/mensen/bispinghof", "<http://data.uni-muenster.de/context/uniaz/MensaBispinghof>","11:30","14:30"),
+	Oeconomicum("http://www.studentenwerk-muenster.de/de/essen-a-trinken/bistros-a-cafes/oeconomicum", "<http://data.uni-muenster.de/context/uniaz/f9a32519e8e58d2c291e7fdcfe437d04>","11:30","16:30");
 	//No link to organization
 	
 	private String url;

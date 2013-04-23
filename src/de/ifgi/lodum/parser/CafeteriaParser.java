@@ -27,6 +27,8 @@ public class CafeteriaParser {
 			return new DaVinciParser().getCafeteria(cafeteriaTyp);
 		if(cafeteriaTyp.equals(CafeteriaTyp.Bispinghof))
 			return new BispinghofParser().getCafeteria(cafeteriaTyp);
+		if(cafeteriaTyp.equals(CafeteriaTyp.Oeconomicum))
+			return new OeconomicumParser().getCafeteria(cafeteriaTyp);
 		
 		return null;	
 	}
