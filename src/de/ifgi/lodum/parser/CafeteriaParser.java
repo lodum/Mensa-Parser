@@ -29,7 +29,7 @@ public class CafeteriaParser {
 			return new BispinghofParser().getCafeteria(cafeteriaTyp);
 		if(cafeteriaTyp.equals(CafeteriaTyp.Oeconomicum))
 			return new OeconomicumParser().getCafeteria(cafeteriaTyp);
-		
+				
 		return null;	
 	}
 }

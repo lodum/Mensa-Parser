@@ -157,7 +157,7 @@ abstract class AbstractCafeteriaParser {
 	/**
 	 * Returns the {@link Price} for a specific menu on a specific weekday.
 	 * @param s the html page
-	 * @param menu a menu, e.g. 'Menü I'
+	 * @param menu a menu, e.g. 'MenÔøΩ I'
 	 * @param weekday a weekday, e.g. 'Freitag'
 	 * @return the {@link Price}
 	 */
@@ -167,13 +167,13 @@ abstract class AbstractCafeteriaParser {
 		int beginIndex = -1;
 		
 		if (menu.equals(menu1)) {
-			beginIndex = s.indexOf("Menü I");
+			beginIndex = s.indexOf("Men√º I");
 		}
 		if (menu.equals(menu2)) {
-			beginIndex = s.indexOf("Menü II");
+			beginIndex = s.indexOf("Men√º II");
 		}
 		if (menu.equals(menu3)) {
-			beginIndex = s.indexOf("Menü III");
+			beginIndex = s.indexOf("Men√º III");
 		}
 		
 		int endIndex = s.substring(beginIndex).indexOf("<br");
@@ -222,7 +222,7 @@ abstract class AbstractCafeteriaParser {
 	 */
 	protected  String removeDigits(String s) {
 
-		// In case something like "3 Stck. Nürnberger Rostbratwürstchen" is
+		// In case something like "3 Stck. NÔøΩrnberger RostbratwÔøΩrstchen" is
 		// offered
 		if (s.length() > 4) {
 			String first = s.substring(0, 4);
